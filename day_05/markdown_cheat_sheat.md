@@ -1,12 +1,20 @@
 # 1- Headings
-How to give headings in markdown files
-# Heading 1
-## Heading 2
-### Heading 3
-#### Headings?
-##### so on.
 
-# 2- Block of words - Citation
+How to give headings in markdown files
+
+```python
+# Heading-1
+
+## Heading 2
+
+### Heading 3
+
+#### Headings?
+
+##### so on
+```
+
+## 2-Block of words/Citation
 
 This is a normal text in markdown.
 
@@ -14,25 +22,24 @@ This is a normal text in markdown.
 >
 > This is second line
 
-# 3- Line Break
+## 3- Line Break
 
  This is a 40 days long course Data Science with Python aka Python ka Chilla with baba amar. (enter or \)
 
 This is second line
 
-#4- Combine two things
+## 4- Combine two things
 
 Block of words and heading
 
 > ## Heading 2
 
-# 5- Face of text
+## 5- Face of text
+
 **bold** - *italic* -
 ***bold italic***
-__BOLD__
-___ITALIC___
 
-# 6- Bullet points / List
+## 6- Bullet points / List
 
 (- + space)
 
@@ -46,10 +53,12 @@ ___ITALIC___
   - Day-5b
 - Day-6
 
-> using *or+
+```python
 * All is well
 + Good
+```
 
+> using *or+\
 > Numbering of list
 
 1. Day1
@@ -59,27 +68,25 @@ ___ITALIC___
    2. efdg
 4. Day4
 
-# 7- Line Break or page break
+## 7- Line Break or page break
 
 This is page 1.
-***
-___
+***___
 ***
 
 This is page 2.
 
-# 8- Link and Hyperlinks
+## 8- Link and Hyperlinks
 
 [Link to Google](https://www.google.com/)
 
 <https://github.com/techsquadron/PKC-DataScience/tree/ebfdbcadf8c703bddf660ebed144b403dcb039b2/day_04>
 
-[Titanic]: (https://www.youtube.com/watch?v=Lgp14y9-U74&ab_channel=Siddhardhan) 
+[Titanic]:(https://www.youtube.com/watch?v=Lgp14y9-U74&ab_channel=Siddhardhan)
 
 The Titanic tutorial is [here][Titanic]
 
-
-# 9- Images and Figures with link
+## 9- Images and Figures with link
 
 To join this curse please scan the following QR code and join telegram group:
 ![QR](qr.png)
@@ -87,15 +94,15 @@ To join this curse please scan the following QR code and join telegram group:
 <!-- fdjhfdkghkjgkd --> Commoneted out in markdown
 
 Online Picture:
-![alt text](http://image.jpg ")
+![alt text](http://image.jpg")
 
-# 10- Adding code or code block
+## 10- Adding code or code block
 
 To print a string use `print("Codanics")`
 
 `print("Hello World")`
 
-```
+```r
 x= 5+6
 y=3+2
 sum = x + y
@@ -107,15 +114,18 @@ x= 5+6
 y=3+2
 sum = x + y
 print(sum)
-```
+
+
 This code with show color according to r language syntaz
+
 ```r
 x= 5+6
 y=3+2
 sum = x + y
 print(sum)
 ```
-# 11- Adding Tables
+
+## 11- Adding Tables
 
 You can also specify the alignment of columns by using colons :
 
@@ -123,19 +133,20 @@ You can also specify the alignment of columns by using colons :
 |:-------:|:-------------:|:--------------:|
 | setosa  |         1.0     |      1.0        |
 | versicolor   |          1.4      |        1.4       |
-| virginica    |           1.7     |      1.7        |   
+| virginica    |           1.7     |      1.7        |
 
-# 12- Content
+## 12- Content
 
 [1- Headings](#1--headings)\
 [2- Block](#2--block-of-words)\
 [3 - Lines](#3--lists)\
 [4- tables](#4--tables)
 
-# 13- Install Extension
-* **Sample** Text
+## 13- Install Extension
 
-# 14- About 
+**Sample** Text
+
+## About
 
 About Lesson
 Here are some key reasons why 📝 Markdown language is important for Jupyter notebooks:
@@ -154,4 +165,4 @@ Multi-purpose Usage: Markdown cells are useful for documentation, explanations, 
 
 Lightweight: Markdown syntax is very easy to read and write. It doesn’t require much space or processing power compared to other markup languages. 📝
 
-In summary, Markdown allows seamless integration of documentation with code in Jupyter notebooks, improving readability, reusability and sharing of data science projects. This makes it an essential part of the Jupyter notebook workflow. 📕
+In summary, Markdown allows seamless integration of documentation with code in Jupyter notebooks, improving readability, reusability and sharing of data science projects. This makes it an essential part of the Jupyter notebook workflow
