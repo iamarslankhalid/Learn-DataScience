@@ -134,3 +134,24 @@ You can also specify the alignment of columns by using colons :
 
 # 13- Install Extension
 * **Sample** Text
+
+# 14- About 
+
+About Lesson
+Here are some key reasons why 📝 Markdown language is important for Jupyter notebooks:
+
+Documentation: Markdown allows you to write documentation and explanations for your code and analysis within the same Jupyter notebook. This helps provide context to your work. 📖
+
+Readability: With formatting options like headings, bold, italics etc., Markdown makes your notes more readable and understandable compared to plain text. 📚
+
+Sharing: When you share Jupyter notebooks, the Markdown formatting is retained. This allows others to easily understand your work without requiring any additional documentation. 📩
+
+Updatability: As you update or refine your code and analysis over time, you can also update the Markdown cells. This keeps your documentation in sync with the latest version. ✅
+
+Platform Support: Major open-source platforms like GitHub, HuggingFace and many others support and recognize Markdown formatting in Jupyter notebooks. This improves portability of your work. 💻
+
+Multi-purpose Usage: Markdown cells are useful for documentation, explanations, visualizations, findings, conclusions and any other text-based contents in your notebooks. ✏️
+
+Lightweight: Markdown syntax is very easy to read and write. It doesn’t require much space or processing power compared to other markup languages. 📝
+
+In summary, Markdown allows seamless integration of documentation with code in Jupyter notebooks, improving readability, reusability and sharing of data science projects. This makes it an essential part of the Jupyter notebook workflow. 📕
